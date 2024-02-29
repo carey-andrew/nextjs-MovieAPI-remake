@@ -1,14 +1,13 @@
 import Link from "next/link";
 import "./header.css";
-import "../../../app/globals.css";
 
 export default function Header() {
   return (
     <>
       <div className="nav"> 
-        <Link href="/">Home</Link>
-        <Link href="Discover">Discover</Link>
-        <Link href="/Search">Search A Movie</Link>
+        <Link href="/"><p>Home</p></Link>
+        <Link href="Discover"><p>Discover</p></Link>
+        <Link href="/Search"><p>Search A Movie</p></Link>
       </div>
     </>
   );
