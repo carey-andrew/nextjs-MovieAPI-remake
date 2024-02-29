@@ -1,20 +1,17 @@
 .nav {
-    display: flex;
-    justify-content: space-between; 
-    padding:2rem;
+    color: white; 
+    text-decoration: none; 
+    background-color: antiquewhite;
+    display:flex;
+    justify-content: space-between;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    font-size: x-large;
+    text-decoration: none;
+    color: inherit;
+}
+
+
   
-  }
-  .home {
-    color:white;
-    background-color: white;
-    font-size: 30px;
-    text-decoration: none;
-  }
-  .search {
-    color: white;
-    background-color: white;
-    font-size: 30px;
-    text-decoration: none;
-  }
   
   

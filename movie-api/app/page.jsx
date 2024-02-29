@@ -17,7 +17,7 @@ export default function Home() {
     <>
       <Header />
       <Main />
-      <Movies movie={Movies} />
+      <Movies />
       <Footer />
     </>
   );

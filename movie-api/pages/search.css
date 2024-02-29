@@ -1,7 +1,3 @@
-body {
-  background: linear-gradient(to right, #158caa, #ace2ee);
-
-}
 .nav {
     display: flex;
     justify-content: space-between; 

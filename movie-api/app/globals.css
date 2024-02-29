@@ -1,5 +1,9 @@
 body {
-  background: linear-gradient(to right, #158caa, #ace2ee);;
+  background: linear-gradient(to right, #06248e, #094755);;
   display:block;
   justify-content:center;
+}
+Link{
+  text-decoration: none;
+  
 }
