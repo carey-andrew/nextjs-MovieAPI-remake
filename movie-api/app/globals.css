@@ -1,24 +1,5 @@
 body {
-  background-color:midnightblue;
+  background: linear-gradient(to right, #158caa, #ace2ee);;
   display:block;
   justify-content:center;
 }
-.nav {
-  display: flex;
-  justify-content: space-between; 
-  padding:2rem;
-
-}
-.home {
-  color:white;
-  background-color: white;
-  font-size: 30px;
-  text-decoration: none;
-}
-.search {
-  color: white;
-  background-color: white;
-  font-size: 30px;
-  text-decoration: none;
-}
-

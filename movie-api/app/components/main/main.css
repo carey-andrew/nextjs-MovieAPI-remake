@@ -1,0 +1,17 @@
+.info {
+    justify-content: center;
+    text-align: center;
+    color: blue;
+    font-size: 60px;
+    border-style: single;
+    background-color: antiquewhite;
+    width:600px;
+    height:35px;
+    line-height: 35px;
+    border-radius: 4rem;
+    margin:auto;
+    vertical-align: middle;
+    align-items: center;
+    padding: 4rem;
+  }
+  
