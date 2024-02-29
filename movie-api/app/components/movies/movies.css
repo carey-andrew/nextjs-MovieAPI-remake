@@ -34,8 +34,10 @@
   }
   
   .poster {
+    margin-left: 50px;
     position: relative;
     width: 350px;
+    
   }
   
   .poster-image {
@@ -44,6 +46,7 @@
     height: auto;
     border-radius: 2rem;
     transition: transform 1s ease-in-out;
+    
   }
   
   .overlay {
