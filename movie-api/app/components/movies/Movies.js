@@ -1,3 +1,4 @@
+import "./movies.css";
 import React, { useState, useEffect } from "react";
 
 const Movies = () => {
@@ -29,22 +30,18 @@ const Movies = () => {
   return (
     <div className="wrapper">
       {movies.map((movie) => (
-        <div key={movie.id}>
-          <>
-            <img
-              className="poster"
-              src={"https://image.tmdb.org/t/p/w500" + movie.poster_path}
-              alt={movie.title}
-            />
-            <h2>{movie.title}</h2>
-          </>
-
-          <>
-            <div className="overviewWrap">
-              <h2 className="flipTitle">{movie.title}</h2>
+        <div key={movie.id} className="poster">
+          <img
+            className="poster-image"
+            src={"https://image.tmdb.org/t/p/w500" + movie.poster_path}
+            alt={movie.title}
+          />
+          <div className="overlay">
+            <div className="overlay-content">
+              <h2>{movie.title}</h2>
               <div className="overview">{movie.overview}</div>
             </div>
-          </>
+          </div>
         </div>
       ))}
     </div>
