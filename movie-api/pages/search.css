@@ -1,28 +1,4 @@
-.nav {
-    display: flex;
-    justify-content: space-between; 
-    padding:2rem;
-    text-decoration: none;
-  
-  }
-  .home {
-    color:blue;
-    background-color: white;
-    font-size: 30px;
-    text-decoration: none;
-  }
-  .search {
-    color: blue;
-    background-color: white;
-    font-size: 30px;
-    text-decoration: none;
-  }
-  .newMovie {
-    color:blue;
-    background-color: white;
-    font-size: 30px;
-    text-decoration: none;
-  }
+ 
   .intro {
     color:white;
   }
