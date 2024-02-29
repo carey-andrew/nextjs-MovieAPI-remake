@@ -38,7 +38,7 @@ const Movies = () => {
             />
             <h2>{movie.title}</h2>
           </>
-  
+
           <>
             <div className="overviewWrap">
               <h2 className="flipTitle">{movie.title}</h2>
@@ -49,5 +49,5 @@ const Movies = () => {
       ))}
     </div>
   );
-  }
-  export default Movies;
+};
+export default Movies;
