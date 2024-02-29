@@ -1,4 +1,3 @@
-import "./search.css"
 import "../app/globals.css"
 import Header from "../app/components/header/Header"
 import Footer from "../app/components/footer/Footer"

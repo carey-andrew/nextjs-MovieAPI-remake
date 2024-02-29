@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import "./SearchMovie.css";
 
 const SearchMovie = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -38,8 +39,10 @@ const SearchMovie = () => {
       <div>
         {searchResults.map((movie) => (
           <div key={movie.id}>
-            <h2>{movie.title}</h2>
-            <div>{movie.overview}</div>
+            <h2 className="title">{movie.title}</h2>
+            <div>
+              <h5 className="movieOverview">{movie.overview}</h5>
+            </div>
           </div>
         ))}
       </div>
