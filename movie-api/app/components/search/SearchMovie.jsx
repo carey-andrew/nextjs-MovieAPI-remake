@@ -29,12 +29,13 @@ const SearchMovie = () => {
   }, [searchTerm, apiKey]);
 
   return (
-    <div>
+    <div className="inputWrapper">
       <input
         type="text"
         placeholder="Search for a movie"
         value={searchTerm}
         onChange={(event) => setSearchTerm(event.target.value)}
+        className="searchInput"
       />
       <div>
         {searchResults.map((movie) => (
