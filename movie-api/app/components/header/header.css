@@ -2,9 +2,10 @@
     color: white; 
     background-color: rgb(248, 246, 244);
     display:flex;
-    justify-content: space-between;
+    justify-content: center;
     padding: 0.1rem;
     margin:0 0 1rem 0;
+    border-radius: 10px;
 }
 .nav a {
     text-decoration: none; /* Remove default underline from links */
@@ -14,9 +15,13 @@ p {
     text-decoration: none;
     color: rgb(24, 128, 203);
     font-weight: bold;
+    padding-top:0rem;
+    padding-bottom:0rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
 }
 p:hover {
-    color:rgb(230, 80, 155);
+    color:rgb(50, 222, 191);
 }
 
 

@@ -2,7 +2,7 @@ import "../app/globals.css"
 import Header from "../app/components/header/Header"
 import Footer from "../app/components/footer/Footer"
 import SearchMovie from "../app/components/search/SearchMovie"
-import FamilySearch from "@/app/components/kidsSearch/FamilySearch"
+import FamilySearch from "@/app/components/kidsSearch/GenreSearch"
 
 export default function Search() {
 

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./FamilySearch.css";
+import "./GenreSearch.css";
 
 const FamilySearch = () => {
   const [searchTerm, setSearchTerm] = useState("");
