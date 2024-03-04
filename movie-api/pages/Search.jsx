@@ -1,8 +1,8 @@
 import "../app/globals.css"
 import Header from "../app/components/header/Header"
 import Footer from "../app/components/footer/Footer"
-import SearchMovie from "../app/components/search/SearchMovie"
-import FamilySearch from "@/app/components/kidsSearch/GenreSearch"
+import SearchMovie from "../app/components/searchAll/SearchMovie"
+import GenreSearch from "@/app/components/GenreSearch/GenreSearch"
 
 export default function Search() {
 
@@ -10,7 +10,7 @@ export default function Search() {
         <>
         <Header />
         <SearchMovie />
-        <FamilySearch />
+        <GenreSearch />
         <Footer />
         </>
     )
