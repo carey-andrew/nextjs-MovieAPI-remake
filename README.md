@@ -12,3 +12,4 @@ I also had to add a feature that reset the search and displayed the original til
 I have learnt more about how to organise my files into components and how Next 14 lets the pages and components work together. 
 
 
+Still to complete- next steps are to be to look at the styling of the site and alter the behaviour of the search by word feature 
