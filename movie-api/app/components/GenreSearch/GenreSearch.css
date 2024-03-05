@@ -4,6 +4,7 @@
     grid-gap: 20px;
     justify-content: center;
     margin: 20px 0;
+    
 }
 .genre {
     display: flex;
@@ -21,7 +22,7 @@
     grid-template-columns: repeat(4, 1fr);
     gap: 1rem;
     justify-content: center;
-    padding: 1rem;
+    padding-left: 12rem;
     max-width: 100%;
   }
   
@@ -29,6 +30,8 @@
     margin-left: 50px;
     position: relative;
     width: 300px;
+    margin-bottom:2rem;
+    
     
   }
   
@@ -38,7 +41,7 @@
     height: auto;
     border-radius: 2rem;
     transition: transform 1s ease-in-out;
-    
+        
   }
   
   .overlay {

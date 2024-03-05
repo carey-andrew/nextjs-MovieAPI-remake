@@ -6,6 +6,10 @@ const SearchMovie = () => {
   const [searchResults, setSearchResults] = useState([]);
   const apiKey = process.env.NEXT_PUBLIC_DATA_API_KEY;
 
+  const handleSearch = () => {
+    onMovieSearch();
+  };
+
   useEffect(() => {
     try {
       async function fetchMovies() {
@@ -37,15 +41,17 @@ const SearchMovie = () => {
         onChange={(event) => setSearchTerm(event.target.value)}
         className="searchInput"
       />
-      <div>
-        {searchResults.map((movie) => (
-          <div key={movie.id}>
-            <h2 className="title">{movie.title}</h2>
-            <div>
-              <h5 className="movieOverview">{movie.overview}</h5>
+      <div className="searchWrapper">
+        <div className="searchResults">
+          {searchResults.map((movie) => (
+            <div key={movie.id}>
+              <h2 className="title">{movie.title}</h2>
+              <div>
+                <h5 className="movieOverview">{movie.overview}</h5>
+              </div>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
     </div>
   );
