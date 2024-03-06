@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./SearchMovie.css";
+import "./searchMovie.css";
 
 const SearchMovie = () => {
   const [searchTerm, setSearchTerm] = useState("");
