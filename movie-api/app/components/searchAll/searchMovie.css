@@ -2,7 +2,8 @@
     display: flex;
     flex-direction: column; /* Ensure children stack vertically */
     align-items: center; /* Center children horizontally */
-    margin-top: 20px;
+    margin-top: 40px;
+        
   }
   
   .searchInput {
@@ -10,19 +11,36 @@
     padding: 1rem;
     margin: 1rem;
     text-align: center;
+    margin-top:2rem;
   }
-  
+  .searchWrapper{
+    display: flex;
+    justify-content: center;
+    width:50%;
+    padding:0, 15rem;
+  }
   .searchResults {
     display: block; /* Ensure search results are displayed as block elements */
     margin-top: 20px; /* Add margin as needed */
+    width:50%;
+    padding:0, 15rem;
   }
   
   .title {
-    color: rgb(107, 242, 242);
+    color: rgb(63, 172, 172);
   }
   
   .movieOverview {
     color: rgb(237, 241, 244);
   }
-  
+  @media screen and (max-width: 768px) {
+    .searchInput {
+        font-size: medium; /* Further decrease font size for smaller screens if needed */
+        width: 90%; /* Adjust width for smaller screens */
+    }
 
+    .searchWrapper,
+    .searchResults {
+        padding: 0 1rem; /* Adjust padding for smaller screens */
+    }
+}

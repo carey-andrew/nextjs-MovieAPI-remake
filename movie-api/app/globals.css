@@ -1,6 +1,10 @@
 body {
-  background: linear-gradient(to right, #06248e, #094755);;
-  display:block;
-  justify-content:center;
+  background-image: url("../../movie-api/public/coolBackground.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  margin:0;
+  padding:0;
 }
 
