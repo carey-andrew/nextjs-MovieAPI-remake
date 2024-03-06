@@ -1,15 +1,17 @@
 .info {
     justify-content: center;
     text-align: center;
-    color: blue;
+    color: rgb(249, 249, 250);
     font-size: 60px;
+    font-family: var(--font-inter);
     border-style: single;
-    background-color: rgb(238, 234, 229);
+    background-color: transparent;
     width:600px;
     height:35px;
     line-height: 35px;
     border-radius: 4rem;
     margin:auto;
+    margin-top:4rem;
     vertical-align: middle;
     align-items: center;
     padding: 4rem;
