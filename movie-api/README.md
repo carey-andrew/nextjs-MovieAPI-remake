@@ -1,36 +1,15 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# nextjs-MovieAPI-remake
 
-## Getting Started
+Why?
+As an update to our week 3 bootcamp challenge to fetch and display data from an API, I decided to remake the website using Next.Js and React.
+I wanted to challenge myself to include a search feature to learn more about how this can be integrated and I have also added a search by genre feature.
 
-First, run the development server:
+Challenges:
+The search by genre feature was a challenge as I needed to combine two fetch requests from The Movie Database. One to return the genre names, then another to display the relevant film titles when a genre was clicked.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+I also had to add a feature that reset the search and displayed the original tiles of genres to choose from. 
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+I have learnt more about how to organise my files into components and how Next 14 lets the pages and components work together. 
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Still to complete- next steps are to be to look at the styling of the site and alter the behaviour of the search by word feature 
