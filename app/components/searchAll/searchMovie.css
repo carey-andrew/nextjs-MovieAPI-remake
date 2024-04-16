@@ -22,8 +22,9 @@
   .searchResults {
     display: block; /* Ensure search results are displayed as block elements */
     margin-top: 20px; /* Add margin as needed */
-    width:50%;
+    width:70%;
     padding:0, 15rem;
+    font-size: large;
   }
   
   .title {
