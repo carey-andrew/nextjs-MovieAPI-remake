@@ -1,5 +1,5 @@
 # nextjs-MovieAPI-remake
-Deployed on nextjs-movie-api-remake.vercel.app 
+Deployed on [nextjs-movie-api-remake.vercel.app ](https://nextjs-movie-api-remake.vercel.app/Discover)
 
 Why?
 As an update to our week 3 bootcamp challenge to fetch and display data from an API, I decided to remake the website using Next.Js and React.
